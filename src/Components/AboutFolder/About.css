@@ -1,0 +1,52 @@
+.about_section{
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  background-color: #F5F7F8;
+}
+
+.about_section .about_box{
+  max-width: 100rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  align-items: center;
+}
+
+.about_section .about_box .imgPart img{
+  max-width: 20rem;
+  object-position: center;
+  object-fit: cover;
+}
+
+.about_section .about_box .textPart{
+  max-width: 30rem;
+}
+
+.about_section .about_box .textPart h3{
+  font-size: 4rem;
+  color: #1E2A5D;
+  margin-bottom: 1rem;
+}
+
+.about_section .about_box .textPart p{
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #444957;
+}
+
+.about_section .about_box .textPart button{
+  color: #fff;
+  padding: 0.8rem 1.6rem;
+  background-color: #E23744;
+  border-radius: 3rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  letter-spacing: 0.1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 1.5rem;
+}
+
+
+

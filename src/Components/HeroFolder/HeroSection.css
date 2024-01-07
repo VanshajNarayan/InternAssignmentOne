@@ -1,0 +1,59 @@
+.header{
+  margin-bottom: 6rem;
+}
+
+.header .hero_section{
+  max-width: 100rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  gap: 2rem;
+  align-items: center;
+}
+
+.header .hero_section .textPart{
+  max-width: 35rem;
+}
+
+.header .hero_section .textPart .food_truck{
+  max-width: 2rem;
+}
+
+.header .hero_section .textPart h2{
+  font-size: 6.2rem;
+  color: #0E2368;
+  margin-top: 3rem;
+}
+
+.header .hero_section .textPart h2 span{
+  color: #E23744;
+}
+
+.header .hero_section .textPart p{
+  color: #444957;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.header .hero_section .textPart button{
+  color: #fff;
+  padding: 1rem 3rem;
+  background-color: #E23744;
+  border-radius: 3.2rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  letter-spacing: 0.1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.header .imagePart img{
+  max-width: 60rem;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 0px 20px;
+}

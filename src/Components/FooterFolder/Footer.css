@@ -1,0 +1,101 @@
+.footer{
+  padding: 2rem;
+  margin-top: 2rem;
+  background-color: #F5F7F8;
+}
+
+.footer .footer_section{
+  max-width: 100rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  gap: 3rem;
+}
+
+.footer .footer_section .firstBox{
+  display: grid;
+  align-items: center;
+}
+
+.footer .footer_section .firstBox img{
+  max-width: 7rem;
+}
+
+.footer .footer_section .secondBox h4{
+  color: #1E2A5D;
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+  margin: 2rem;
+}
+
+.footer .footer_section .secondBox p{
+  color: rgb(147, 134, 134);
+  margin: 2rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.footer .footer_section .secondBox p .address{
+  display: inline-block;
+  margin-bottom: 0.3rem;
+  margin-top: 0.3rem;
+}
+
+.footer .footer_section .secondBox p span{
+  display: inline-block;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.footer .footer_section .thirdBox h4{
+  color: #1E2A5D;
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+  margin: 2rem;
+}
+
+.footer .footer_section .thirdBox h4{
+  color: #1E2A5D;
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+  margin: 2rem;
+}
+
+.footer .footer_section .thirdBox ul{
+  margin: 2rem;
+}
+
+.footer .footer_section .thirdBox ul li{
+  color: rgb(147, 134, 134);
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+}
+
+.footer .footer_section .fourthBox h4{
+  color: #1E2A5D;
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+  margin: 2rem 2rem 0rem 2rem;
+}
+
+.footer .footer_section .fourthBox .icons{
+  margin: 1rem 2rem 6rem 2rem;
+} 
+
+.footer .footer_section .fourthBox .icons .socialIcons{
+  color: #1E2A5D;
+  margin-right: 3rem;
+  font-size: 2rem;
+}
+
+.footer .footer_section .fourthBox p{
+  color: rgb(147, 134, 134);
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
